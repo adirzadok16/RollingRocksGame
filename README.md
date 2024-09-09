@@ -1,7 +1,7 @@
-# Rock Dodge Game
+# Rolling Rock Game
 
 ## Overview
-**Rock Dodge Game** is an exciting road adventure where players guide a car through hazardous terrain filled with falling rocks. The objective is to avoid collisions with the rocks and survive for as long as possible. The car has three lives and must dodge rocks that appear randomly in three lanes.
+**Rolling Rock Game** is an exciting road adventure where players guide a car through hazardous terrain filled with falling rocks. The objective is to avoid collisions with the rocks and survive for as long as possible. The car has three lives and must dodge rocks that appear randomly in three lanes.
 
 ## Features
 - **Three Lives** for the car
