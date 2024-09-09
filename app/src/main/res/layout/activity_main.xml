@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFCFCF"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="395dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginTop="560dp"
+        android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock50"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock51"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock52"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="@dimen/all_hearts_width"
+        android:layout_height="@dimen/all_heart_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/heart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="@dimen/heart_margin"
+            app:srcCompat="@drawable/heart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/heart" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <!--first linear for rocks-->
+
+    <!--second linear for rocks-->
+
+
+    <!--thired linear for rocks-->
+
+
+    <!--fourth linear for rocks-->
+
+    <!--fifth linear for rocks-->
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="395dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginTop="115dp"
+        android:layout_marginBottom="@dimen/buttons_bottom_margin">
+        <!--first linear-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock00"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock01"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock02"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="395dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock10"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock11"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock12"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="395dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginTop="296dp"
+        android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock20"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock21"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock22"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="395dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginTop="384dp"
+        android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock30"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock31"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock32"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="395dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginTop="471dp"
+        android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock40"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock41"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_rock42"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/rock" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="395dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginTop="652dp"
+        android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_carleft"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="@drawable/greybackground"
+                android:scaleType="centerCrop" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_carmiddle"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="@drawable/car"
+                android:scaleType="centerCrop" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_carright"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="@drawable/greybackground"
+                android:scaleType="centerCrop" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/buttons_bottom_margin">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#42A5F5"
+            app:icon="@drawable/right_arrow_svgrepo_com"
+            app:iconGravity="textEnd"
+            app:iconSize="40dp"/>
+
+
+        <View
+            android:layout_width="@dimen/default_margin"
+            android:layout_height="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#42A5F5"
+            app:icon="@drawable/left_arrow_svgrepo_com"
+            app:iconGravity="textEnd"
+            app:iconSize="40dp"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</RelativeLayout>
