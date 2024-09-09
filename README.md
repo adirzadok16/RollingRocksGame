@@ -1,21 +1,20 @@
 # Rolling Rock Game
 
 ## Overview
-**Rolling Rock Game** is an exciting road adventure where players guide a car through hazardous terrain filled with falling rocks. The objective is to avoid collisions with the rocks and survive for as long as possible. The car has three lives and must dodge rocks that appear randomly in three lanes.
+**Rolling Rock Game** is a thrilling driving challenge where players navigate a car through a treacherous path filled with falling rocks. The goal is to steer clear of the rocks and last as long as you can. The car starts with three lives, and the player must skillfully avoid rocks that randomly fall across three lanes.
 
 ## Features
 - **Three Lives** for the car
 - **Randomly Generated Rocks** falling from the top of the screen
 - **Intuitive Left and Right Controls** to navigate the car
 - **Visual and Tactile Feedback** on collisions
-- **Game Reset Functionality** when all lives are lost
 
 ## Gameplay
 - Use the left and right buttons to move the car.
 - Avoid rocks falling randomly in the three lanes.
 - The game ends when all three lives are lost.
 - Visual feedback is provided for remaining lives and collisions.
-- Reset: The game can be restarted after losing all lives.
+- Reset: The game can be restarted after losing all lives by presing the restart button.
 
 ## Installation
 1. Clone the repository:
