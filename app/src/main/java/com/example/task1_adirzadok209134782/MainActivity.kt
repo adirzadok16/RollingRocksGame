@@ -121,6 +121,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun changeActivity() {
+         timerJob.cancel()
         val intent = Intent(this, EndGame::class.java);
         var bundle = Bundle()
         bundle.putString("status", "😭Game Over!")
