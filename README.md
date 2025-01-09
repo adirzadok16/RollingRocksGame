@@ -22,3 +22,8 @@
    https://github.com/adirzadok16/RollingRocksGame.git
 2. Open the project in Android Studio.
 3. Build and run the project on an Android device or emulator.
+
+## Video
+
+https://github.com/user-attachments/assets/9cda0285-b1be-4fed-b24d-584cd3d39b17
+
